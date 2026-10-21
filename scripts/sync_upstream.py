@@ -49,7 +49,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 def fetch(url: str) -> bytes:
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "Marco9442/tencentcloud-api-skill sync workflow"},
+        headers={"User-Agent": "elwina/tencentcloud-api-skill sync workflow"},
     )
     with urllib.request.urlopen(request, timeout=60) as response:
         return response.read()
@@ -141,7 +141,7 @@ def write_license(license_id: str, published_at_ms: int, upstream_paths: set[str
 def write_readme(version: str, license_id: str) -> None:
     readme = f"""# tencentcloud-api-skill
 
-[![Sync ClawHub upstream](https://github.com/Marco9442/tencentcloud-api-skill/actions/workflows/sync-upstream.yml/badge.svg)](https://github.com/Marco9442/tencentcloud-api-skill/actions/workflows/sync-upstream.yml)
+[![Sync ClawHub upstream](https://github.com/elwina/tencentcloud-api-skill/actions/workflows/sync-upstream.yml/badge.svg)](https://github.com/elwina/tencentcloud-api-skill/actions/workflows/sync-upstream.yml)
 
 这是 ClawHub 官方技能 [`{OWNER}/{SLUG}`]({UPSTREAM_URL}) 的**自动同步公开镜像**。仓库根目录保持标准 Agent Skill 结构，可直接作为 GitHub Skill 源使用。
 
@@ -167,7 +167,7 @@ SKILL.md
 示例：
 
 ```bash
-git clone https://github.com/Marco9442/tencentcloud-api-skill.git
+git clone https://github.com/elwina/tencentcloud-api-skill.git
 ```
 
 具体安装方式取决于所使用的 Agent 运行时；任何支持标准 `SKILL.md` 仓库布局的运行时都可以直接读取本仓库。

@@ -1,6 +1,6 @@
 # tencentcloud-api-skill
 
-[![Sync ClawHub upstream](https://github.com/Marco9442/tencentcloud-api-skill/actions/workflows/sync-upstream.yml/badge.svg)](https://github.com/Marco9442/tencentcloud-api-skill/actions/workflows/sync-upstream.yml)
+[![Sync ClawHub upstream](https://github.com/elwina/tencentcloud-api-skill/actions/workflows/sync-upstream.yml/badge.svg)](https://github.com/elwina/tencentcloud-api-skill/actions/workflows/sync-upstream.yml)
 
 这是 ClawHub 官方技能 [`tencent-adm/tencentcloud-api-skill`](https://clawhub.ai/tencent-adm/skills/tencentcloud-api-skill) 的**自动同步公开镜像**。仓库根目录保持标准 Agent Skill 结构，可直接作为 GitHub Skill 源使用。
 
@@ -26,7 +26,7 @@ SKILL.md
 示例：
 
 ```bash
-git clone https://github.com/Marco9442/tencentcloud-api-skill.git
+git clone https://github.com/elwina/tencentcloud-api-skill.git
 ```
 
 具体安装方式取决于所使用的 Agent 运行时；任何支持标准 `SKILL.md` 仓库布局的运行时都可以直接读取本仓库。
